@@ -7,7 +7,6 @@ document.addEventListener("DOMContentLoaded", function(){
       el.setAttribute('display', 'none');
       document.body.appendChild(el);
       el.select();
-      el.setSelectionRange(0, 99999); /*For mobile devices*/
       document.execCommand('copy');
       document.body.removeChild(el);
     }
